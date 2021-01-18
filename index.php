@@ -12,7 +12,7 @@
     <?php include 'menu.php'; ?>
     <!-- head -->
 
-    <header class="text-gray-300 bg-cover bg-center" style="background-image: url(/img/leaf.jpg)">
+    <header class="text-gray-300 bg-cover bg-local bg-fixed" style="background-image: url(/img/leaf.jpg)">
         <div class="container mx-auto flex px-5 pt-10 pb-20 items-center justify-center flex-col">
             <div class="text-center lg:w-2/3 w-full">
                 <h2 class="text-sm text-indigo-200 uppercase tracking-widest pb-5">Les quiz de Vendredi</h2>
@@ -26,9 +26,9 @@
                 <p class="leading-relaxed text-white mb-8">Avec Quiz Vendredi améliore ta culture générale en t'amusant, lance toi
                     des défis et apprend plein de nouvelles choses. De nouveaux quiz arrivent chaque semaine.</p>
                 <div class="flex justify-center">
-                    <button class="rounded-md bg-gray-200 border-pink-600 shadow text-gray-700 hover:text-pink-600 font-bold py-2 px-6">
+                    <a href="explorer.php" class="rounded-md bg-gray-200 border-pink-600 shadow text-gray-700 hover:text-pink-600 font-bold py-2 px-6">
                         Explorer
-                    </button>
+                    </a>
                     <button class="rounded-md bg-gray-700 shadow text-gray-200 hover:bg-pink-600 font-bold py-2 px-6 ml-4">
                         Aléatoire
                     </button>
@@ -199,57 +199,9 @@
     </section>
 
 
-    <footer>
+    <?php include 'footer.php'; ?>
 
-        <!-- title -->
-        <div class="container mx-auto max-w-screen-lg py-20">
-            <div class="flex flex-wrap justify-around">
-                <div class="w-full md:w-1/2">
-                    <div class="flex justify-center bg-black rounded-lg p-8">
-                        L'équipe de Vendredi vous souhaite un agréable voyage sur notre site
-                    </div>
-
-                </div>
-                <div class="w-full md:w-1/2">
-                    <div class="flex items-center justify-center mb-5">
-                        <h2 class="text-base sm:text-lg font-title">Suivez-nous</h2>
-                        <span class="ml-5"><i class="fas fa-chevron-right"></i></span>
-                    </div>
-
-                    <div class="flex justify-center">
-                        <div class="flex text-gray-400">
-                            <div class="hover:text-white w-14 h-14 p-3 bg-gray-700 rounded-full text-center">
-                                <i class="fab fa-instagram fa-2x"></i>
-                            </div>
-                            <div class="hover:text-white w-14 h-14 p-3 bg-gray-700 rounded-full text-center mx-4">
-                                <i class="fab fa-twitter fa-2x"></i>
-                            </div>
-                            <div class="hover:text-white w-14 h-14 p-3 bg-gray-700 rounded-full text-center">
-                                <i class="fab fa-facebook fa-2x"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="py-5">
-            <hr class="border-1 border-gray-700">
-            <div class="flex justify-center pt-5">
-                <ul class="flex text-gray-400 text-sm">
-                    <li class="hover:text-white hover:underline"><a href="#">Contact</a></li>
-                    <li class="hover:text-white hover:underline mx-3"><a href="#">Mentions légales</a></li>
-                    <li class="hover:text-white hover:underline"><a href="#">Vie privée</a></li>
-                </ul>
-            </div>
-
-            <div class="flex justify-center pt-5">
-                <p class="text-gray-400 text-sm">© 2021 vendredi.company</p>
-            </div>
-
-    </footer>
-
-
+    <script src="script.js"></script>
     <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 
 </body>

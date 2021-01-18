@@ -10,7 +10,7 @@
 
 <body class="flex h-screen bg-gray-900 font-body">
     <div class="max-w-xs w-full m-auto bg-gray-700 rounded-lg p-5">
-        <h1 class="text-xl text-gray-200 font-light font-title text-center mb-5">Administrateur</h1>
+        <h1 class="text-xl text-gray-200 font-light font-title text-center mb-5">Administrateur new</h1>
         <form>
             <div>
                 <label class="block mb-2 text-gray-200" for="username">Identifiant</label>

@@ -14,13 +14,29 @@
 
     <?php include 'menu.php'; ?>
 
-    <main id="news" class="bg-black p-14">
+    <main id="news" class="bg-black md:p-14">
 
-        <div class="container mx-auto max-w-screen-xl bg-gray-900 p-5 rounded-3xl">
-            <div class="">
-                <input class="w-full h-16 px-3 rounded mb-8 focus:outline-none focus:shadow-outline text-xl px-8 shadow-lg" type="search" placeholder="Search...">
+        <div class="container mx-auto w-full max-w-screen-xl bg-gray-900 p-5 md:rounded-3xl">
+
+            <div class="w-full flex justify-between items-center">
+                <div class="relative w-full">
+                    <svg class="w-6 h-6 absolute text-gray-400 top-4 left-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    </svg>
+                    <input type="text" class="group bg-gray-900 h-14 w-full px-12 focus:outline-none hover:cursor-pointer" placeholder="Rechercher un quiz">
+                </div>
+
+                <div class="">
+                    <div class="">
+                        <div class="px-5">Catégories</div>
+                    </div>
+                </div>
 
             </div>
+
+
+
+            <hr class="border-1 border-gray-700 pb-5">
 
             <!-- menu catégorie
             <div class="flex items-baseline justify-between pt-2 pb-5 px-3 md:px-20">
@@ -176,10 +192,30 @@
                     </a>
                 </div>
 
-
                 <!-- end galerie -->
-            </div>
 
+            </div>
+            <div class="py-4 flex justify-center">
+                <nav class="block">
+                    <ul class="flex pl-0 rounded list-none flex-wrap">
+                        <li>
+                            <a href="#" class="text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative text-white bg-pink-600">
+                                1
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative text-white bg-gray-600">
+                                2
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative text-white bg-gray-600">
+                                3
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </main>
 

@@ -10,20 +10,6 @@
   display: -webkit-box;
 }
 
-.bg-hero {
-  background-image: url("/img/earth.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100% auto;
-  z-index: 100;
-}
-
-.background-trick {
-  background: #111827; /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #111827 0%,#111827 15%,#1f2937 15%,#1f2937 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111827', endColorstr='#1f2937',GradientType=0 ); /* IE6-9 */
-}
-
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
 /*

@@ -14,27 +14,45 @@
 
     <?php include 'menu.php'; ?>
 
-    <main id="news" class="bg-black md:p-14">
+    <main id="news" class="bg-black md:p-10">
 
-        <div class="container mx-auto w-full max-w-screen-xl bg-gray-900 p-5 md:rounded-3xl">
+        <div class="container mx-auto max-w-screen-xl bg-gray-900 pt-2 px-5 pb-5 md:rounded-3xl">
 
-            <div class="w-full flex justify-between items-center">
-                <div class="relative w-full">
+            <div class="flex items-center">
+                <div class="relative w-4/6">
                     <svg class="w-6 h-6 absolute text-gray-400 top-4 left-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
                     </svg>
                     <input type="text" class="group bg-gray-900 h-14 w-full px-12 focus:outline-none hover:cursor-pointer" placeholder="Rechercher un quiz">
                 </div>
 
-                <div class="">
-                    <div class="">
-                        <div class="px-5">Catégories</div>
+
+                <div class="relative inline-block w-2/6 flex justify-end">
+                    <div id="menu-btn">
+                        <button href="all" type="button" class="inline-flex justify-center px-4 py-2 rounded-xl text-sm font-medium text-gray-200 bg-gray-800 focus:outline-none" id="options-menu" aria-haspopup="true" aria-expanded="true">
+                            Art et lettre
+                            <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                    </div>
+
+
+
+                    <!-- Dropdown -->
+
+                    <div id="dropdown" class="hidden absolute right-0 top-0 w-40 rounded-md shadow-lg bg-gray-800 ring-1 ring-black ring-opacity-5" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+                        <div class="py-1">
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-200 hover:text-white" role="menuitem">TOUT</a>
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-200 hover:text-white" role="menuitem">Nature</a>
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-200 hover:text-white" role="menuitem">Arts et Lettres</a>
+                        </div>
                     </div>
                 </div>
 
             </div>
 
-
+            
 
             <hr class="border-1 border-gray-700 pb-5">
 

@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="dist/tailwind.css" rel="stylesheet">
-    <title>accueil</title>
+    <title>Blablaquiz</title>
 </head>
 
 <body class="bg-gray-900 text-gray-200 font-body">
@@ -40,8 +40,8 @@
     <!-- category -->
 
     <section id="category" class="bg-gray-900 sm:pt-3 sm:px-3 lg:pt-10">
-        <div class="container mx-auto shadow-lg">
-            <div class="bg-black shadow-xl rounded-lg p-5 md:p-8">
+        <div class="container mx-auto shadow-lg bg-black shadow-xl rounded-lg p-5 md:p-8">
+            <div class="">
                 <!-- text intro -->
                 <div class="flex flex-col md:flex-row">
                     <div class="md:w-1/3 mr-5">

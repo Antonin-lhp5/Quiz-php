@@ -9,9 +9,10 @@
 </head>
 
 <body class="flex h-screen bg-gray-900 font-body">
-    <div class="max-w-xs w-full m-auto bg-gray-700 rounded-lg p-5">
-        <h1 class="text-xl text-gray-200 font-light font-title text-center mb-5">Administrateur new</h1>
-        <form>
+
+    <div class="max-w-xs w-full m-auto">
+        <h1 class="text-4xl text-gray-200 font-title text-center mb-5 font-bold text-gray-200">Babla<span class="text-indigo-500">quiz</span></h1>
+        <form class="bg-gray-700 rounded-lg p-5 ring-black ring-2 ring-opacity-10 shadow">
             <div>
                 <label class="block mb-2 text-gray-200" for="username">Identifiant</label>
                 <input class="w-full p-2 mb-6 text-gray-200 outline-none bg-gray-800 ring-1 ring-gray-900 focus:ring-pink-600" type="text" name="username" id="username">

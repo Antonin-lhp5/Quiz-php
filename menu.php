@@ -7,7 +7,7 @@
                 <a href="index.php#category" class="hover:text-white">Catégories</a>
                 <a href="index.php#news" class="hover:text-white">Nouveautés</a>
             </div>
-            <h1 class="tracking-wide text-xl font-semibold sm:text-2xl">Blabla<span class="text-pink-500">quiz</span></h1>
+            <h1 class="tracking-wide text-xl font-semibold sm:text-2xl font-title">Blabla<span class="text-indigo-400">quiz</span></h1>
 
             <!-- hamburger -->
             <button class="sm:hidden outline-none focus:outline-none">

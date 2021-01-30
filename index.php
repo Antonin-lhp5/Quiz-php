@@ -111,87 +111,29 @@
     </section>
 
     <!-- Nouveauté -->
-    <section id="news" class="bg-gray-900 pt-14">
+    <section id="news" class="bg-gray-900 py-14">
         <div class="container mx-auto max-w-screen-lg">
             <div class="flex justify-center items-center px-2 pb-8 lg:pb-10">
-                <h1 class="text-white text-xl sm:text-2xl font-title">Nouveau sur Avendredi</h1>
-                <svg class="w-6 h-6 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                </svg>
+                <ion-icon class="mr-3 w-6 h-6 text-indigo-400" name="megaphone"></ion-icon>
+                <h1 class="tracking-wide text-xl font-semibold sm:text-2xl font-title">Nouveau sur Blabla<span class="text-indigo-400">quiz</span></h1>
             </div>
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-2 px-2">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-2 md:gap-4 px-2">
 
-                <div>
-                    <a href="" class="flex py-2 md:py-3 px-3 group rounded-lg hover:bg-gray-800 hover:shadow-lg transition duration-300 ease-in-out">
-                        <img class="h-20 w-20 md:h-24 md:w-24 rounded-lg " src="img/gameconsole.jpg" alt="">
-                        <div class="pl-5 py-1 space-y-1">
-                            <h1 class="text-xs sm:text-sm">Loisirs</h1>
-                            <h2 class="text-sm sm:text-base custom-truncate leading-tight group-hover:text-indigo-200">
-                                Nos
-                                anciennes consoles de jeux vidéos !</h2>
-                        </div>
-                    </a>
-                </div>
+            <?php 
+                for ($i = 1; $i <= 6; $i++) { ?>
 
-                <div>
-                    <a class="flex py-2 md:py-3 px-3 group rounded-lg hover:bg-gray-800 hover:shadow-lg transition duration-300 ease-in-out">
-                        <img class="h-20 w-20 md:h-24 md:w-24 rounded-lg " src="img/rabbit.jpg" alt="">
+                    <div>
+                    <a href="#" class="flex py-2 md:py-3 px-3 group rounded-lg bg-gray-800 ring-1 ring-black ring-opacity-10 shadow-lg hover:bg-gray-700 transition duration-300 ease-in-out">
+                        <img class="h-20 w-20 object-cover md:h-24 md:w-24 flex-shrink-0 rounded-lg" src="img/cat.jpg" alt="">
                         <div class="pl-5 py-1 space-y-1">
                             <h1 class="text-xs sm:text-sm">Nature</h1>
                             <h2 class="text-sm sm:text-base custom-truncate leading-tight group-hover:text-indigo-200">
-                                Les
-                                lapins et leurs terriers</h2>
+                                Les chats dans l'Histoire avec un grand H</h2>
                         </div>
                     </a>
                 </div>
 
-                <div>
-                    <a class="flex py-2 md:py-3 px-3 group rounded-lg hover:bg-gray-800 hover:shadow-lg transition duration-300 ease-in-out">
-                        <img class="h-20 w-20 md:h-24 md:w-24 rounded-lg " src="img/gazelle.jpg" alt="">
-                        <div class="pl-5 py-1 space-y-1">
-                            <h1 class="text-xs sm:text-sm">Nature</h1>
-                            <h2 class="text-sm sm:text-base custom-truncate leading-tight group-hover:text-indigo-200">
-                                Les
-                                proies des prédateurs</h2>
-                        </div>
-                    </a>
-                </div>
-
-                <div>
-                    <a class="flex py-2 md:py-3 px-3 group rounded-lg hover:bg-gray-800 hover:shadow-lg transition duration-300 ease-in-out">
-                        <img class="h-20 w-20 md:h-24 md:w-24 rounded-lg " src="img/victorhugo.jpg" alt="">
-                        <div class="pl-5 py-1 space-y-1">
-                            <h1 class="text-xs sm:text-sm">Arts et Lettres</h1>
-                            <h2 class="text-sm sm:text-base custom-truncate leading-tight group-hover:text-indigo-200">
-                                Connaissez-vous Victor Hugo ?</h2>
-                        </div>
-                    </a>
-                </div>
-
-                <div>
-                    <a class="flex py-2 md:py-3 px-3 group rounded-lg hover:bg-gray-800 hover:shadow-lg transition duration-300 ease-in-out">
-                        <img class="h-20 w-20 md:h-24 md:w-24 rounded-lg " src="img/volcan.jpg" alt="">
-                        <div class="pl-5 py-1 space-y-1">
-                            <h1 class="text-xs sm:text-sm">Science</h1>
-                            <h2 class="text-sm sm:text-base custom-truncate leading-tight group-hover:text-indigo-200">
-                                Les
-                                différents volcans et leurs présences géographiques</h2>
-                        </div>
-                    </a>
-                </div>
-
-                <div>
-                    <a class="flex py-2 md:py-3 px-3 group rounded-lg hover:bg-gray-800 hover:shadow-lg transition duration-300 ease-in-out">
-                        <img class="h-20 w-20 md:h-24 md:w-24 rounded-lg " src="img/greek.jpg" alt="">
-                        <div class="pl-5 py-1 space-y-1">
-                            <h1 class="text-xs sm:text-sm">Histoire</h1>
-                            <h2 class="text-sm sm:text-base custom-truncate leading-tight group-hover:text-indigo-200">
-                                Les
-                                mythes de la grèce antique</h2>
-                        </div>
-                    </a>
-                </div>
-
+               <?php } ?>
 
                 <!-- end galerie -->
             </div>

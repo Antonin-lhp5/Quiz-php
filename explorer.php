@@ -60,7 +60,7 @@
 
                     <div>
                     <a href="#" class="flex py-2 md:py-3 px-3 group rounded-lg bg-gray-800 ring-1 ring-black ring-opacity-10 shadow-lg hover:bg-gray-700 transition duration-300 ease-in-out">
-                        <img class="h-20 w-20 md:h-24 md:w-24 rounded-lg " src="img/gameconsole.jpg" alt="">
+                        <img class="h-20 w-20 object-cover md:h-24 md:w-24 flex-shrink-0 rounded-lg" src="img/gameconsole.jpg" alt="">
                         <div class="pl-5 py-1 space-y-1">
                             <h1 class="text-xs sm:text-sm">Loisirs</h1>
                             <h2 class="text-sm sm:text-base custom-truncate leading-tight group-hover:text-indigo-200">
@@ -73,16 +73,16 @@
 
             </div>
 
-            <div class="py-4 flex justify-center">
+            <div class="py-6 md:py-8 flex justify-center">
                 <nav class="block">
                     <ul class="flex pl-0 rounded list-none flex-wrap">
                         <li>
-                            <a href="#" class="text-md font-semibold flex px-3 py-2 rounded-xl leading-tight text-white bg-gray-600 hover:bg-gray-700 mr-2">
+                            <a href="#" class="text-md font-semibold flex px-6 py-4 rounded-xl leading-tight text-white bg-gray-600 hover:bg-gray-700 mr-2">
                                 Précédent
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="text-md font-semibold flex px-3 py-2 rounded-xl leading-tight text-white bg-pink-600 hover:bg-pink-700">
+                            <a href="#" class="text-md font-semibold flex px-6 py-4 rounded-xl leading-tight text-white bg-pink-600 hover:bg-pink-700">
                                 Suivant
                             </a>
                         </li>

@@ -5,8 +5,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="dist/tailwind.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <title>Explorer</title>
 </head>
 
@@ -77,12 +75,12 @@
                 <nav class="block">
                     <ul class="flex pl-0 rounded list-none flex-wrap">
                         <li>
-                            <a href="#" class="text-md font-semibold flex px-6 py-4 rounded-xl leading-tight text-white bg-gray-600 hover:bg-gray-700 mr-2">
+                            <a href="#" class="text-md font-semibold flex px-3 py-2 md:px-6 md:py-4 rounded-xl leading-tight text-white bg-gray-600 hover:bg-gray-700 mr-2">
                                 Précédent
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="text-md font-semibold flex px-6 py-4 rounded-xl leading-tight text-white bg-pink-600 hover:bg-pink-700">
+                            <a href="#" class="text-md font-semibold flex px-3 py-2 md:px-6 md:py-4 rounded-xl leading-tight text-white bg-pink-600 hover:bg-pink-700">
                                 Suivant
                             </a>
                         </li>

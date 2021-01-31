@@ -22,7 +22,9 @@
                 <input class="w-full p-2 mb-6 text-gray-200 outline-none bg-gray-800 ring-1 ring-gray-900 focus:ring-pink-600" type="password" name="password" id="password">
             </div>
             <div>
-                <input class="w-full bg-pink-700 hover:bg-pink-600 text-gray-200 font-bold py-2 px-4 rounded outline-none" type="submit" value="Se connecter">
+                <button  class="w-full bg-pink-700 hover:bg-pink-600 text-gray-200 font-bold py-2 px-4 rounded outline-none" type="submit">
+                    Se connecter
+                </button>
             </div>
         </form>
     </div>

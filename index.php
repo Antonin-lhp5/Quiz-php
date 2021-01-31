@@ -21,7 +21,7 @@
                     <span class="h-5 md:h-8 w-1 bg-white"></span>
                     <div>Triomphe</div>
                     <span class="h-5 md:h-8 w-1 bg-white"></span>
-                    <div>Apprend</div>
+                    <div>Apprends</div>
                 </h1>
                 <p class="leading-relaxed text-white mb-8">Avec Quiz Vendredi améliore ta culture générale en t'amusant, lance toi
                     des défis et apprend plein de nouvelles choses. De nouveaux quiz arrivent chaque semaine.</p>
@@ -39,8 +39,8 @@
 
     <!-- category -->
 
-    <section id="category" class="bg-gray-900 sm:pt-3 sm:px-3 lg:pt-10">
-        <div class="container mx-auto shadow-lg bg-black shadow-xl rounded-lg p-5 md:p-8">
+    <section id="category" class="bg-gray-900 sm:pt-3 sm:px-5 lg:pt-10">
+        <div class="container max-w-screen-xl mx-auto shadow-lg bg-black shadow-xl rounded-lg p-5 md:p-8">
             <div class="">
                 <!-- text intro -->
                 <div class="flex flex-col md:flex-row">
@@ -111,13 +111,13 @@
     </section>
 
     <!-- Nouveauté -->
-    <section id="news" class="bg-gray-900 py-14">
+    <section id="news" class="bg-gray-900">
         <div class="container mx-auto max-w-screen-lg">
-            <div class="flex justify-center items-center px-2 pb-8 lg:pb-10">
+            <div class="flex justify-center items-center px-2 py-8 lg:">
                 <ion-icon class="mr-3 w-6 h-6 text-indigo-400" name="megaphone"></ion-icon>
                 <h1 class="tracking-wide text-xl font-semibold sm:text-2xl font-title">Nouveau sur Blabla<span class="text-indigo-400">quiz</span></h1>
             </div>
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-2 md:gap-4 px-2">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-2 md:gap-4 px-5">
 
             <?php 
                 for ($i = 1; $i <= 6; $i++) { ?>

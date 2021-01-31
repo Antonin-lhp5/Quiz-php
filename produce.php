@@ -18,7 +18,10 @@
           <a href="explorer.php" class="border-b-2 border-pink-500 pb-3 hover:text-white">Créer</a>
         </div>
         <div class="flex items-center">
-        <svg class="w-6 h-6 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+          <svg class="w-6 h-6 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+          </svg>
           <h1 class="tracking-wide text-xl font-semibold sm:text-2xl font-title ml-2">Blabla<span class="text-indigo-400">quiz</span></h1>
 
         </div>
@@ -94,8 +97,20 @@
             </div>
             <div class="w-1/2">
               <label class="block mb-2 text-gray-200" for="imgQuiz">Image du quiz</label>
-              <input type="file" class="h-full w-full" name="imgQuiz" id="imgQuiz">
+              <input type="file" class="h-full w-full mb-6" name="imgQuiz" id="imgQuiz">
             </div>
+            <div class="w-1/2">
+              <label class="block mb-2 text-gray-200" for="categoryQuiz">Catégorie du quiz</label>
+              <select class="bg-gray-800" name="categoryQuiz" id="categoryQuiz">
+                <option value="nature">Nature</option>
+                <option value="sciences">Sciences</option>
+                <option value="histoire">Histoire</option>
+                <option value="loisirs">Loisirs</option>
+                <option value="sports">Sports</option>
+                <option value="arts-et-lettres">Arts et Lettres</option>
+              </select>
+            </div>
+
 
             <button class="mt-5 bg-green-600 hover:bg-green-700 text-gray-200 font-bold py-2 px-4 rounded outline-none" type="submit" value="">
               Publier

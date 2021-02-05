@@ -592,14 +592,6 @@ video {
   }
 }
 
-/* #tooltip {
-    @apply  px-4 py-2 w-auto bg-gray-900 text-white text-sm rounded-md shadow hidden;
-  }
-  
-  #tooltip[data-show] {
-    @apply block;
-  } */
-
 .space-y-0 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
@@ -11236,14 +11228,6 @@ video {
 
 .font-mono{
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
-
-.font-body{
-  font-family: Nunito, sans-serif;
-}
-
-.font-title{
-  font-family: Manrope, sans-serif;
 }
 
 .font-thin{
@@ -41868,14 +41852,6 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
-  .sm\:font-body{
-    font-family: Nunito, sans-serif;
-  }
-
-  .sm\:font-title{
-    font-family: Manrope, sans-serif;
-  }
-
   .sm\:font-thin{
     font-weight: 100;
   }
@@ -72418,14 +72394,6 @@ video {
 
   .md\:font-mono{
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  }
-
-  .md\:font-body{
-    font-family: Nunito, sans-serif;
-  }
-
-  .md\:font-title{
-    font-family: Manrope, sans-serif;
   }
 
   .md\:font-thin{
@@ -102972,14 +102940,6 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
-  .lg\:font-body{
-    font-family: Nunito, sans-serif;
-  }
-
-  .lg\:font-title{
-    font-family: Manrope, sans-serif;
-  }
-
   .lg\:font-thin{
     font-weight: 100;
   }
@@ -133524,14 +133484,6 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
-  .xl\:font-body{
-    font-family: Nunito, sans-serif;
-  }
-
-  .xl\:font-title{
-    font-family: Manrope, sans-serif;
-  }
-
   .xl\:font-thin{
     font-weight: 100;
   }
@@ -164074,14 +164026,6 @@ video {
 
   .\32xl\:font-mono{
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  }
-
-  .\32xl\:font-body{
-    font-family: Nunito, sans-serif;
-  }
-
-  .\32xl\:font-title{
-    font-family: Manrope, sans-serif;
   }
 
   .\32xl\:font-thin{

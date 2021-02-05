@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="dist/tailwind.css" rel="stylesheet">
+    <link href="assets/dist/tailwind.css" rel="stylesheet">
     <title>Blablaquiz</title>
 </head>
 
 <body class="bg-gray-900 text-gray-200 font-body">
-    <?php include 'menu.php'; ?>
+    <?php include 'view/menu.php'; ?>
     <!-- head -->
 
     <header class="text-gray-300 bg-cover bg-local bg-fixed" style="background-image: url(/img/leaf.jpg)">
@@ -26,7 +26,7 @@
                 <p class="leading-relaxed text-white mb-8">Avec Quiz Vendredi améliore ta culture générale en t'amusant, lance toi
                     des défis et apprend plein de nouvelles choses. De nouveaux quiz arrivent chaque semaine.</p>
                 <div class="flex justify-center">
-                    <a href="explorer.php" class="rounded-md bg-gray-200 border-pink-600 shadow text-gray-700 hover:text-pink-600 font-bold py-2 px-6">
+                    <a href="view/explorer.php" class="rounded-md bg-gray-200 border-pink-600 shadow text-gray-700 hover:text-pink-600 font-bold py-2 px-6">
                         Explorer
                     </a>
                     <button class="rounded-md bg-gray-700 shadow text-gray-200 hover:bg-pink-600 font-bold py-2 px-6 ml-4">
@@ -141,7 +141,7 @@
     </section>
 
 
-    <?php include 'footer.php'; ?>
+    <?php include 'view/footer.php'; ?>
 
     <script src="script.js"></script>
     <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
